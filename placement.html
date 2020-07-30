@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+ background-image: url("texture4.jpg");
+}
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #09f;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+}
+</style>
+</head>
+<body>
+<section>
+<header>
+<h1>Company Details</h1>
+</header>
+</section>
+<article>
+<section style="font-style:sans-serif;float:left;width:100%;border:2px solid;background-color:lightblue">
+<p>The PAT centre plays an integral role in creating the illustrious placement record of VIT. 
+It ensures smooth functioning of the placement activities in the campus. 
+The centre further facilitates training activities of the students and makes sure they get placed in the best of both national and international companies.</p>
+<b> Companies in Placement comes under 3 categories</b>
+<ul>
+<li>Super-Dream Category</li>
+<li>Dream Category</li>
+<li>IT Services</li>
+</ul>
+</section>
+</article>
+<section>
+<header>
+<h1>1. Super Dream Companies</h1>
+</header>
+</section>
+<article>
+<section style="font-style:sans-serif;float:left;width:100%;border:2px solid;background-color:lightblue">
+<ul>
+<li><b><u>MICROSOFT</u></b></br>
+<b><u>About Company:</u> Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. 
+It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.Its best known 
+software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers. 
+Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers. In 2016, it was the 
+world's largest software maker by revenue (currently Alphabet/Google has more revenue)
+</b></br>
+<img src="microsoft.jpg" height="300px"></img></li>
+<li><b><u>AMAZON</u></b></br>
+<b><u>About Company:</u> Amazon.com, Inc. is an American multinational technology company based in Seattle that focuses on e-commerce, 
+cloud computing, digital streaming, and artificial intelligence. It is considered one of the Big Four technology companies, along with Google, Apple, and 
+Facebook.It has been referred to as "one of the most influential economic and cultural forces in the world" as well as the world's most valuable brand.
+</b></br>
+<img src="amazon.jpg" height="300px"></img></li>
+<li><b><u>APPDYNAMICS</u></b></br>
+<b><u>About Company:</u> AppDynamics is an application performance management (APM) and IT operations analytics (ITOA) company based in San Francisco. 
+The company focuses on managing the performance and availability of applications across cloud computing environments as well as inside the data center.
+In March 2017, AppDynamics was acquired by Cisco for $3.7 billion
+</b></br>
+<img src="appdynamics.jpg" height="300px"></img></li>
+</section>
+</article>
+<section>
+<header>
+<h1>2. Dream Companies</h1>
+</header>
+</section>
+<section style="font-style:sans-serif;float:left;width:100%;border:2px solid;background-color:lightblue">
+<ul>
+<li><b><u>COGNIZANT</u></b></br>
+<b><u>About Company:</u> Cognizant is an American multinational corporation that provides IT services, including digital, technology, 
+consulting, and operations services. It is headquartered in Teaneck, New Jersey, United States. Cognizant is part of the NASDAQ-100 and trades under CTSH. 
+It was founded as an in-house technology unit of Dun & Bradstreet in 1994,and started serving external clients in 1996.After a series of corporate 
+re-organisations there was an initial public offering in 1998.
+</b></br>
+<img src="cognizant.jpg" height="300px"></img></li>
+<li><b><u>TCS</u></b></br>
+<b><u>About Company:</u> Tata Consultancy Services Limited (TCS) is an Indian multinational information technology (IT) service and consulting company 
+headquartered in Mumbai, Maharashtra, India.It is a subsidiary of the Tata Group and operates in 149 locations across 46 countries.TCS is the second largest 
+Indian company by market capitalisation.Tata consultancy services is now placed among the most valuable IT services brands worldwide.In 2015, TCS was 
+ranked 64th overall in the Forbes World's Most Innovative Companies ranking, making it both the highest-ranked IT services company and the top Indian 
+company.It is the world's largest IT services provider.As of 2018, it is ranked eleventh on the Fortune India 500 list.In April 2018, TCS became 
+the first Indian IT company to reach $100 billion in market capitalisation,and second Indian company ever (after Reliance Industries achieved it in 2007)
+after its market capitalisation stood at ₹6,79,332.81 crore ($102.6 billion) on the Bombay Stock Exchange.
+</b></br>
+<img src="tcs.jpg" height="300px"></img></li>
+</section>
+</article>
+<section>
+<header>
+<h1>Previous Year Record(2019-2020)</h1>
+</header>
+</section>
+<article>
+<section style="font-style:sans-serif;float:left;width:48%;border:2px solid;background-color:lightblue">
+<img src="placementno.jpg" height="320px"></img>
+</section>
+<section style="font-style:sans-serif;float:left;width:50%;border:2px solid;background-color:lightblue">
+<img src="averagectc.jpg" height="320px"></img>
+</section>
+<section style="font-style:sans-serif;float:left;width:48%;border:2px solid;background-color:lightblue">
+<img src="visited.jpg" height="320px"></img>
+</section>
+<section style="font-style:sans-serif;float:left;width:50%;border:2px solid;background-color:lightblue">
+<img src="joboffers.jpg" height="320px"></img>
+</section>
+<section style="font-style:sans-serif;float:left;width:48%;border:2px solid;background-color:lightblue">
+<img src="regular.jpg" height="320px"></img>
+</section>
+<section style="font-style:sans-serif;float:left;width:50%;border:2px solid;background-color:lightblue">
+<img src="dream.jpg" height="320px"></img>
+</section>
+<section style="font-style:sans-serif;float:left;width:48%;border:2px solid;background-color:lightblue">
+<img src="superdream.jpg" height="320px"></img>
+</section>
+<section style="font-style:sans-serif;float:left;width:50%;border:2px solid;background-color:lightblue">
+<img src="internship.jpg" height="320px"></img>
+</section>
+<h2>Provide your Rating here:</h2>
+<form class="rating">
+  <label>
+    <input type="radio" name="stars" value="1" />
+    <span class="icon">★</span>
+  </label>
+  <label>
+    <input type="radio" name="stars" value="2" />
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+  </label>
+  <label>
+    <input type="radio" name="stars" value="3" />
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+    <span class="icon">★</span>   
+  </label>
+  <label>
+    <input type="radio" name="stars" value="4" />
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+  </label>
+  <label>
+    <input type="radio" name="stars" value="5" />
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+    <span class="icon">★</span>
+  </label>
+</form>
+</body>
+</html>
